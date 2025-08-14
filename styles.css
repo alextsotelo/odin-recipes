@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255,202,26);
+}
+.title {
+    background-color: #181b1f;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: extra-bold;
+    font-size: 66px;
+}
+.recipe-list {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+.recipe-list li {
+    padding: 8px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:rgb(255, 202, 26);
+}
+.recipe-title {
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #181b1f;
+}
+.recipe-image {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    border: 16px solid skyblue;
+    border-radius: 8px;
+}
+.recipe-desc-title {
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #181b1f;
+    margin-top: 16px;
+}
+.recipe-desc {
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #181b1f;
+    margin: 0 auto;
+    width: 40%;
+}
+.ingredients-title {
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #181b1f;
+    margin: 8px auto;
+}
+.ingredients-list {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.ingredients-list li {
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#181b1f;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.steps-title {
+    text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #181b1f;
+    margin: 8px auto;
+}
+.steps {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+
+a, 
+a :visited {
+    color: black;
+}
