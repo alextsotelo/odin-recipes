@@ -13,8 +13,7 @@ body {
     font-size: 66px;
 }
 .recipe-list {
-    padding: 0;
-    margin: 0 auto;
+    margin-top: 16px;
     text-align: center;
     list-style-type: none;
 }
@@ -86,10 +85,27 @@ body {
     color: #181b1f;
     margin: 8px auto;
 }
-.steps {
-    width: 60%;
+.steps-container {
+    text-align: center;
     margin: 0 auto;
+}
+.steps {
+    display: inline-block;
+    text-align: left;
+    max-width: 475px;
+}
+.steps li {
     font-family: Verdana, Helvetica, sans-serif;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+#home-btn {
+    padding: 10px 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 
